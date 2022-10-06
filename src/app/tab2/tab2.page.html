@@ -1,17 +1,185 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 2
+      CALCULADORA
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+
+
+  <ion-item>
+    <ion-label position="stacked">Operação</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Resultado</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-row class="one">
+
+    <ion-col>
+      <ion-button color="dark" fill="outline" [disabled]="true">MC</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="dark" fill="outline" [disabled]="true">MR</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="dark" fill="outline">M+</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="dark" fill="outline">M-</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="dark" fill="outline">MS</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="dark" fill="outline" [disabled]="true">M</ion-button>
+    </ion-col>
+  </ion-row>
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-button  color="cinzaclaro" expand="block" >%</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block">√</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >x²</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >¹/X</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >CE</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro"  expand="block">C</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" ><ion-icon name="backspace-outline"></ion-icon></ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >/</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row>
+    <ion-col >
+      <div class="numero">
+      <ion-button color="claro" expand="block" >7</ion-button>
+    </div>
+    </ion-col>
+
+
+    <ion-col>
+      <div class="numero2">
+      <ion-button color="claro" expand="block">8</ion-button>
+    </div>
+    </ion-col>
+
+    <ion-col>
+      <div class="numero3">
+      <ion-button color="claro" expand="block" >9</ion-button>
+    </div>
+    </ion-col>
+
+
+    <ion-col>
+      <div class="numero4">
+      <ion-button color="cinzaclaro" expand="block" >x</ion-button>
+    </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+<ion-grid>
+  <ion-row>
+
+    <ion-col>
+      <ion-button color="claro" expand="block" >4</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="claro" expand="block">5</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="claro" expand="block" >6</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >-</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row>
+
+    <ion-col>
+      <ion-button color="claro" expand="block" >1</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="claro" expand="block">2</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="claro" expand="block" >3</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >+</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >±</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="claro" expand="block">0</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >,</ion-button>
+    </ion-col>
+
+    <ion-col>
+      <ion-button color="cinzaclaro" expand="block" >=</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
 </ion-content>
