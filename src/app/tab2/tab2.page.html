@@ -1,14 +1,50 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="dark">
+  <ion-toolbar color="calc">
     <ion-title>
       CALCULADORA
     </ion-title>
   </ion-toolbar>
+
+  <!--falta o padrao-->
 </ion-header>
+
 
 <ion-content [fullscreen]="true">
 
+<!--
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu Content</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">This is the menu content.</ion-content>
+  </ion-menu>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      Tap the button in the toolbar to open the menu.
+    </ion-content>
+  </div>
+  -->
 
+  <div class="padrao">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Padrão</ion-title>
+    <ion-icon slot="end" name="timer-outline"></ion-icon>
+  </ion-toolbar>
+
+</div>
 
   <ion-item>
     <ion-label position="stacked">Operação</ion-label>
@@ -111,9 +147,7 @@
 
 
     <ion-col>
-      <div class="numero4">
       <ion-button color="cinzaclaro" expand="block" >x</ion-button>
-    </div>
     </ion-col>
   </ion-row>
 </ion-grid>
@@ -123,15 +157,21 @@
   <ion-row>
 
     <ion-col>
+      <div class="numero4">
       <ion-button color="claro" expand="block" >4</ion-button>
+    </div>
     </ion-col>
 
     <ion-col>
+      <div class="numero5">
       <ion-button color="claro" expand="block">5</ion-button>
+    </div>
     </ion-col>
 
     <ion-col>
+      <div class="numero6">
       <ion-button color="claro" expand="block" >6</ion-button>
+    </div>
     </ion-col>
 
     <ion-col>
@@ -144,15 +184,21 @@
   <ion-row>
 
     <ion-col>
+      <div class="numero7">
       <ion-button color="claro" expand="block" >1</ion-button>
+    </div>
     </ion-col>
 
     <ion-col>
+      <div class="numero8">
       <ion-button color="claro" expand="block">2</ion-button>
+    </div>
     </ion-col>
 
     <ion-col>
+      <div class="numero9">
       <ion-button color="claro" expand="block" >3</ion-button>
+    </div>
     </ion-col>
 
     <ion-col>
@@ -169,7 +215,9 @@
     </ion-col>
 
     <ion-col>
+      <div class="numero0">
       <ion-button color="claro" expand="block">0</ion-button>
+    </div>
     </ion-col>
 
     <ion-col>
